@@ -3,8 +3,8 @@ package com.barash.day6;
 public class SortedARRAY {
     public static void main(String[] args) {
 
-    }
-    static int[] binary(int[][] matrix,int row,int cStart,int cEnd,int target){
+    }}
+    /*static int[] binary(int[][] matrix,int row,int cStart,int cEnd,int target){
         while(cStart<=cEnd){
             int mid=cStart+(cEnd-cStart)/2;
             if(matrix[row][mid]==target){
@@ -32,8 +32,8 @@ public class SortedARRAY {
         int rStart=0;
         int rEnd=row-1;
         int mid=column/2;
-        
 
+          return 0;
     }
 
-}
+}*/
