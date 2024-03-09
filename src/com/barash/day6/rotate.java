@@ -6,7 +6,7 @@ public class rotate {
         int[] arr={7,8,9,11,1,2,3,4,5,6};
         int largest=Pivot(arr);
         int target=7;
-        if(largest==-1){
+        /*if(largest==-1){
             return binary(arr,target,0,arr.length-1);
         }
         if(arr[largest]==target){
@@ -17,7 +17,7 @@ public class rotate {
         }
             return binary(arr,target,largest+1, arr.length-1);
 
-
+*/
     }
     public static int binary(int[] arr,int target,int start,int end){
         while(start<=end){
