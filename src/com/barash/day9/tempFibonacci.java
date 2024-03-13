@@ -6,7 +6,7 @@ public class tempFibonacci {
         //0 1 1 2 3
         //
 
-    } 
+    }
     public static int fibonacci(int n){
         //base conditon are give that seaies start from 0 1 and continued but the sum of the future indices
         if(n==0){
