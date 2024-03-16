@@ -3,6 +3,7 @@ package com.barash.day11;
 public class Reverse {
     public static void main(String[] args) {
         System.out.println(rev2(12345));
+        System.out.println(palindrome(12321));
 
     }
     static int sum=0;
@@ -26,5 +27,8 @@ public class Reverse {
         }
         int rem=n%10;
         return (int)(rem*Math.pow(10,digit-1)+helper(n/10,digit-1));
+    }
+    public static boolean palindrome(int n){
+        return n==rev2(n);
     }
 }
