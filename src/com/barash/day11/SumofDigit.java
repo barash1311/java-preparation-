@@ -12,4 +12,11 @@ public class SumofDigit {
 
         return (n%10)+ssumofdigit(n/10);
     }
+    public static int product(int n){
+        if(n%10==n){
+            return n;
+        }
+
+        return (n%10)*product(n/10);
+    }
 }
