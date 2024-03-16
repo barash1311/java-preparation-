@@ -8,7 +8,8 @@ public class recursion2 {
         if(n==0){
             return;
         }
+        System.out.print(n+" ");
         easy(n-1);
-        System.out.println(n);
+        System.out.print(n+" ");
     }
 }
