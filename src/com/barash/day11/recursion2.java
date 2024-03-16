@@ -1,0 +1,14 @@
+package com.barash.day11;
+
+public class recursion2 {
+    public static void main(String[] args) {
+        easy(5);
+    }
+    public static void easy(int n){
+        if(n==0){
+            return;
+        }
+        easy(n-1);
+        System.out.println(n);
+    }
+}

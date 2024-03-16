@@ -6,7 +6,7 @@ public class recursion1 {
 
     }
     public static int number(int n){
-        System.out.println(n);
+        System.out.print(n+" ");
         if(n==1){
             return 1 ;
         }
