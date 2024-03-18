@@ -28,6 +28,7 @@ public class pathtracer {
             return;
         }
         maze[r][c]=false;
+        ans[r][c]=step;
         if(r<maze.length-1){
             path(p+"D",maze,r+1,c,ans,step+1);
         }
@@ -41,7 +42,7 @@ public class pathtracer {
             path(p+"L",maze,r,c-1,ans,step+1);
         }
         maze[r][c]=true;
-        ans[r][c]=step;
+        ans[r][c]=0;
 
     }
 }
