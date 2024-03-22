@@ -1,7 +1,19 @@
 package com.barash.day14;
 
 public class Box {
-     double l;
+    public double getL() {
+        return l;
+    }
+
+    public double getH() {
+        return h;
+    }
+
+    public double getW() {
+        return w;
+    }
+
+    double l;
     double h;
     double w;
     Box(){
